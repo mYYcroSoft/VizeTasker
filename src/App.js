@@ -5,7 +5,7 @@ import { getFirestore, doc, getDoc, addDoc, setDoc, updateDoc, deleteDoc, onSnap
 
 // Define context for Firebase and user data
 const AppContext = createContext(null);
-
+//TEST
 // Custom hook to use the app context
 const useAppContext = () => useContext(AppContext);
 
